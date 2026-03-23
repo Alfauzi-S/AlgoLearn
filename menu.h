@@ -46,6 +46,6 @@ void tampilMenuUtama() {
     cout << "5. Searching\n";
     cout << "0. Keluar\n";
     cout << "=========================================\n";
-    cout << "Pilih menu: " << endl;
+    cout << "Pilih menu: ";
 }
 # endif
