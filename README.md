@@ -1,15 +1,14 @@
-# AlgoLearn
+# AlgoLearn - Aplikasi Pembelajaran Algoritma dan Struktur Data
 
-AlgoLearn adalah aplikasi berbasis command-line (CLI) yang dibangun menggunakan bahasa pemrograman C++. Aplikasi ini dirancang untuk membantu mahasiswa dan pemula memahami konsep-konsep dasar dan lanjut dalam algoritma dan struktur data secara interaktif dan visual. Program ini menyediakan penjelasan teori, contoh implement simulasi langkah-demi-langkah dari berbagai algoritma dan struktur data populer.
+AlgoLearn adalah aplikasi berbasis command-line (CLI) yang dibangun menggunakan bahasa pemrograman C++. Aplikasi ini dirancang untuk membantu mahasiswa dan pemula memahami konsep-konsep dasar dan lanjut dalam algoritma dan struktur data secara interaktif dan visual. Program ini menyediakan penjelasan teori, contoh implementasi, dan simulasi langkah-demi-langkah dari berbagai algoritma dan struktur data populer.
 
 ## Fitur Utama
 
 *   **Interaktif:** Navigasi menu yang mudah untuk memilih topik yang ingin dipelajari.
-*   **Komprehensif:** Mencakup berbagai topik penting mulai dari Array dan String hingga algoritma Sorting dan Searching.
-*   **Penjelasan Teori:** Setiap topik menyertakan definisi dan langkah-langkah implementasi.
+*   **Komprehensif:** Mencakup berbagai topik penting mulai dari Array dan String hingga algoritma Sorting dan **Penjelasan Teori:** Setiap topik menyertakan definisi dan langkah-langkah implementasi.
 *   **Contoh Kode:** Menyediakan potongan kode C++ untuk memperjelas konsep.
 *   **Simulasi Langkah-demi-Langkah:** Menampilkan proses iterasi algoritma (misalnya, proses pengurutan atau pencarian) untuk pemahaman yang lebih baik.
-*   **Modular Design:** Kode terorganisir ke dalam beberapa file header (.h) dan source (.cpp) untuk memudahkan pemeliharaan dan pengembangan.
+*   **Modular Design:** Kode terorganisir ke dalam beberapa file header (.h) dan source (.cpp) untuk memudahkan pemeliharaan.
 
 ## Daftar Isi
 
@@ -18,6 +17,7 @@ AlgoLearn adalah aplikasi berbasis command-line (CLI) yang dibangun menggunakan 
 3.  [Procedure & Fungsi](#procedure--fungsi)
 4.  [Sorting](#sorting)
 5.  [Searching](#searching)
+6.  [Gambar dan Poster](#gambar-dan-poster)
 
 ## Topik yang Dibahas
 
@@ -42,7 +42,7 @@ AlgoLearn adalah aplikasi berbasis command-line (CLI) yang dibangun menggunakan 
 
 *   **Procedure (Void Function):** Fungsi tanpa nilai kembalian.
 *   **Function:** Fungsi dengan nilai kembalian.
-*   **Parameter ke fungsi (by value, by reference).
+*   **Parameter:** Input yang diterima oleh fungsi (by value, by reference).
 *   **Variabel Lokal & Global:** Lingkup variabel dalam fungsi dan secara keseluruhan program.
 *   **Variabel Static:** Variabel yang mempertahankan nilai antar pemanggilan fungsi.
 *   **Fungsi Rekursif:** Fungsi yang memanggil dirinya sendiri.
@@ -53,7 +53,7 @@ AlgoLearn adalah aplikasi berbasis command-line (CLI) yang dibangun menggunakan 
 *   **Heap Sort:** Menggunakan struktur data heap untuk pengurutan.
 *   **Merge Sort:** Algoritma divide-and-conquer yang menggabungkan bagian yang terurut.
 *   **Quick Sort:** Algoritma divide-and-conquer dengan pivot.
-*   **Tree Binary Search Tree (BST).
+*   **Tree Sort:** Menggunakan Binary Search Tree (BST).
 *   **Exchange Sort:** Membandingkan dan menukar pasangan elemen.
 *   **Radix Sort:** Mengurutkan berdasarkan digit/digit nilai.
 *   **Shell Sort:** Versi perbaikan dari insertion sort dengan gap.
@@ -63,8 +63,7 @@ AlgoLearn adalah aplikasi berbasis command-line (CLI) yang dibangun menggunakan 
 ### Searching
 
 *   **Fibonacci Search:** Pencarian pada array terurut menggunakan bilangan Fibonacci.
-*   **Binary Search:** Pencarian cepat pada array terurut dengan pembagian dua.
-*   **Interpolation Search:** Pencarian pada array terurut dengan estimasi posisi.
+*   **Binary Search:** Pencarian cepat pada array terurut dengan pembagian duaInterpolation Search:** Pencarian pada array terurut dengan estimasi posisi.
 *   **Sequential/Linear Search:** Pencarian sederhana dengan memeriksa setiap elemen.
 
 ## Cara Menjalankan Program
@@ -77,14 +76,16 @@ AlgoLearn adalah aplikasi berbasis command-line (CLI) yang dibangun menggunakan 
     g++ -o algolearn main.cpp menu.cpp array_submenu.cpp pointer_struct_submenu.cpp procedure_function_submenu.cpp sorting_submenu.cpp searching_submenu.cpp
     ```
     *(Catatan: Sesuaikan nama file source jika berbeda)*
-5.     ```bash
+5.  Jalankan program:
+    ```bash
     ./algolearn
     ```
     *(Untuk Windows, mungkin perlu `algolearn.exe`)*
 
 ## Struktur Proyek
 
-*   `main.cpp`: Fungsi utama dan loop menu   `menu.h`: Fungsi-fungsi utilitas untuk UI seperti `cls()` dan `pause()`, serta menu utama.
+*   `main.cpp`: Fungsi utama dan loop menu utama.
+*   `menu.h`: Fungsi-fungsi utilitas untuk UI seperti `cls()` dan `pause()`, serta menu utama.
 *   `array_submenu.h`: Implementasi dan tampilan untuk topik Array.
 *   `pointer_struct_submenu.h`: Implementasi dan tampilan untuk topik Pointer & Struct.
 *   `procedure_function_submenu.h`: Implementasi dan tampilan untuk topik Procedure & Fungsi.
@@ -105,3 +106,19 @@ AlgoLearn adalah aplikasi berbasis command-line (CLI) yang dibangun menggunakan 
 ---
 
 *Proyek ini dibuat sebagai bagian dari tugas UTS Algoritma dan Pemrograman Lanjut.*
+
+## Gambar dan Poster
+
+Berikut adalah tampilan dari aplikasi AlgoLearn dan poster promosi proyek.
+
+### Poster AlgoLearn
+
+![Poster AlgoLearn](image/Poster.pdf)
+
+*Poster yang menjelaskan fitur-fitur utama AlgoLearn.*
+
+### Contoh Tampilan Program (Screenshot)
+
+![Contoh Tampilan Fibonacci Search](image/Screenshot 2026-03-23 185838.png) <!-- Ganti dengan path/file screenshot dari repo jika tersedia -->
+*Ilustrasi tampilan program saat menjelaskan dan mensimulasikan algoritma Fibonacci Search.*
+
