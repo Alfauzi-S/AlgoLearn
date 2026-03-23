@@ -97,15 +97,6 @@ AlgoLearn adalah aplikasi berbasis command-line (CLI) yang dibangun menggunakan 
 *   Bahasa Pemrograman: C++
 *   Library Standar C++: `<iostream>`, `<string>`, `<vector>`, dll.
 
-## Kontributor
-
-*   Muhammad Alfauzi Syahputra (2509106006)
-*   Syarafina Nur Amalia (2509106016)
-*   Diftya Azzahra (2509106042)
-
----
-
-*Proyek ini dibuat sebagai bagian dari tugas UTS Algoritma dan Pemrograman Lanjut.*
 
 ## Gambar dan Poster
 
@@ -113,12 +104,14 @@ Berikut adalah tampilan dari aplikasi AlgoLearn dan poster promosi proyek.
 
 ### Poster AlgoLearn
 
-![Poster AlgoLearn](image/Poster.pdf)
+![Poster AlgoLearn](image/Poster.png)
 
 *Poster yang menjelaskan fitur-fitur utama AlgoLearn.*
 
 ### Contoh Tampilan Program (Screenshot)
 
-![Contoh Tampilan Fibonacci Search](image/Screenshot 2026-03-23 185838.png) <!-- Ganti dengan path/file screenshot dari repo jika tersedia -->
+![Contoh Tampilan Fibonacci Search](image/Screenshot185838.png)
+![](image/Screenshot185848.png)
+![](image/Screenshot185859.png)
 *Ilustrasi tampilan program saat menjelaskan dan mensimulasikan algoritma Fibonacci Search.*
 
