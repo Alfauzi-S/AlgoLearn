@@ -105,7 +105,7 @@ Berikut adalah tampilan dari aplikasi AlgoLearn dan poster promosi proyek.
 
 ### 📽️ Poster AlgoLearn
 
-![Poster AlgoLearn](2509106006_2509106016_2509106042_Poster.pdf)
+![Poster AlgoLearn](image/Poster.png)
 
 *Poster yang menj-fitur utama AlgoLearn.* 🧠
 
@@ -115,7 +115,7 @@ Berikut adalah tampilan dari aplikasi AlgoLearn dan poster promosi proyek.
 
 ![Contoh Tampilan Fibonacci Search](image/Screenshot185838.png)
 <br>
-<i>Ilustrasi tampilan program saat menjelaskan dan mensimulasikan algoritma Fibonacci Search.</i> 🔁
+<i>Tampilan menu utama aplikasi.</i> 🏠
 
 </div>
 
@@ -123,7 +123,7 @@ Berikut adalah tampilan dari aplikasi AlgoLearn dan poster promosi proyek.
 
 ![Contoh Tampilan Menu](image/Screenshot185848.png)
 <br>
-<i>Tampilan menu utama aplikasi.</i> 🏠
+<i>Ilustrasi tampilan program saat menjelaskan dan mensimulasikan algoritma Fibonacci Search.</i> 🔁
 
 </div>
 
