@@ -107,7 +107,9 @@ Berikut adalah tampilan dari aplikasi AlgoLearn dan poster promosi proyek.
 
 ![Poster AlgoLearn](image/Poster.png)
 
-*Poster yang menj-fitur utama AlgoLearn.* 🧠
+### 📽️ Rangkuman Materi
+
+https://www.canva.com/design/DAHE7D-Haac/5ZOw80DpfCMUszlHEb-YFg/edit
 
 ### 📸 Contoh Tampilan Program (Screenshot)
 
