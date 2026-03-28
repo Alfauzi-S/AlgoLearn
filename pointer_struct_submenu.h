@@ -49,7 +49,7 @@ void tampilPointer() {
     cout << "int *ptr = &x;\n";
     cout << "cout << *ptr; // Menampilkan nilai yang ditunjuk oleh ptr (10)\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 struct Produk {
@@ -95,7 +95,7 @@ void tampilStruct() {
     cout << "barang.nama = \"AlgoLearn\";\n";
     cout << "barang.harga = 100000;\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 void tampilArrayStruct() {
@@ -141,7 +141,7 @@ void tampilArrayStruct() {
     cout << "daftar[0].nama = \"AlgoLearn\";\n";
     cout << "daftar[0].harga = 100000;\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 void tampilPointerStruct() {
@@ -187,7 +187,7 @@ void tampilPointerStruct() {
     cout << "ptr->nama = \"AlgoLearn\";\n";
     cout << "ptr->harga = 100000;\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 void tampilUnion() {
@@ -239,7 +239,7 @@ void tampilUnion() {
     cout << "Data data;\n";
     cout << "data.i = 10;\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 #endif

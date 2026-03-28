@@ -105,7 +105,7 @@ void tampilInsertionSort() {
     cout << "    }\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 void heapify(vector<int>& arr, int n, int i) {
@@ -234,7 +234,7 @@ void tampilHeapSort() {
     cout << "    }\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 void merge(vector<int>& arr, int left, int mid, int right) {
@@ -354,7 +354,7 @@ void tampilMergeSort() {
     cout << "    merge(arr, left, mid, right);\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 int partition(vector<int>& arr, int low, int high) {
@@ -433,7 +433,7 @@ void tampilQuickSort() {
     cout << "    }\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 struct TreeNode {
@@ -534,7 +534,7 @@ void tampilTreeSort() {
     cout << "    inorder(root, arr);\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 void exchangeSort(vector<int>& arr) {
@@ -615,7 +615,7 @@ void tampilExchangeSort() {
     cout << "    }\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 int getMax(vector<int> arr) {
@@ -728,7 +728,7 @@ void tampilRadixSort() {
     cout << "    }\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 void shellSort(vector<int>& arr) {
@@ -749,7 +749,7 @@ void tampilShellSort() {
     cls();
     cout << "=== SHELL SORT ===\n\n";
     cout << "Pengertian:\n";
-    cout << "Shell sort adalah variasi insertion sort yangan pertukaran jarak jauh.\n\n";
+    cout << "Shell sort adalah perkembangan dari insertion sort yang mengurutkan data berbasis perbandingan yang berjauhan.\n\n";
     
     cout << "Langkah-langkah:\n";
     cout << "1. Pilih gap (jarak antar elemen)\n";
@@ -816,7 +816,7 @@ void tampilShellSort() {
     cout << "    }\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 void bubbleSort(vector<int>& arr) {
@@ -903,7 +903,7 @@ void tampilBubbleSort() {
     cout << "    }\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 void selectionSort(vector<int>& arr) {
@@ -988,7 +988,7 @@ void tampilSelectionSort() {
     cout << "    }\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 #endif

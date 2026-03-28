@@ -24,7 +24,7 @@ void cls() {
 #endif
 }
 
-void pause() {
+void pauseMenu() {
 #ifdef _WIN32
     system("pause");
 #else

@@ -38,7 +38,7 @@ int main() {
                         case 0: break;
                         default: 
                             cout << "Pilihan tidak valid!\n";
-                            pause();
+                            pauseMenu();
                             break;
                     }
                 } while(subpilihan != 0);
@@ -59,7 +59,7 @@ int main() {
                         case 0: break;
                         default: 
                             cout << "Pilihan tidak valid!\n";
-                            pause();
+                            pauseMenu();
                             break;
                     }
                 } while(subpilihan != 0);
@@ -81,7 +81,7 @@ int main() {
                         case 0: break;
                         default: 
                             cout << "Pilihan tidak valid!\n";
-                            pause();
+                            pauseMenu();
                             break;
                     }
                 } while(subpilihan != 0);
@@ -107,7 +107,7 @@ int main() {
                         case 0: break;
                         default: 
                             cout << "Pilihan tidak valid!\n";
-                            pause();
+                            pauseMenu();
                             break;
                     }
                 } while(subpilihan != 0);
@@ -127,7 +127,7 @@ int main() {
                         case 0: break;
                         default: 
                             cout << "Pilihan tidak valid!\n";
-                            pause();
+                            pauseMenu();
                             break;
                     }
                 } while(subpilihan != 0);
@@ -139,7 +139,7 @@ int main() {
                 
             default:
                 cout << "Pilihan tidak valid!\n";
-                pause();
+                pauseMenu();
                 break;
         }
     } while(pilihan != 0);

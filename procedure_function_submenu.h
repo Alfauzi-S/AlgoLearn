@@ -48,7 +48,7 @@ void tampilProcedure() {
     cout << "    cout << \"Hello World!\";\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 int tambah(int a, int b) {
@@ -81,7 +81,7 @@ void tampilFungsi() {
     cout << "    return a + b;\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 void sapa(string nama) {
@@ -113,7 +113,7 @@ void tampilParameter() {
     cout << "    cout << \"Halo \" << nama;\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 int globalVar = 10; // Variabel global
@@ -157,7 +157,7 @@ void tampilVariabelLokalGlobal() {
     cout << "    cout << \"Dalam fungsi(): localVar = \" << localVar << endl;\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 void fungsiStatic() {
@@ -198,7 +198,7 @@ void tampilVariabelStatic() {
     cout << "    cout << \"Counter = \" << counter << endl;\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 int faktorial(int n) {
@@ -241,7 +241,7 @@ void tampilFungsiRekursif() {
     cout << "    return n * faktorial(n-1); // Recursive call\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 #endif

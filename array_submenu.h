@@ -51,7 +51,7 @@ void tampilString() {
     cout << "string nama = \"AlgoLearn\";\n";
     cout << "cout << \"Aplikasi pembelajaran \" << nama << endl;\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 void tampilArrayStatis() {
@@ -88,7 +88,7 @@ void tampilArrayStatis() {
     cout << "int arr[5] = {1, 2, 3, 4, 5};\n";
     cout << "arr[0] = 10;\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 void tampilArrayDinamis() {
@@ -131,7 +131,7 @@ void tampilArrayDinamis() {
     cout << "arr[0] = 10;\n";
     cout << "delete[] arr;\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 void tampilArray1Dimensi() {
@@ -164,7 +164,7 @@ void tampilArray1Dimensi() {
     cout << "int arr[5] = {10, 20, 30, 40, 50};\n";
     cout << "cout << arr[2]; // Menampilkan nilai elemen ketiga (30)\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 void tampilArrayMulti2Dimensi() {
@@ -200,7 +200,7 @@ void tampilArrayMulti2Dimensi() {
     cout << "int arr[2][3] = {{1, 2, 3}, {4, 5, 6}};\n";
     cout << "cout << arr[1][2]; // Menampilkan nilai elemen baris 2 kolom 3 (6)\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 void tampilArrayMulti3Dimensi() {
@@ -237,7 +237,7 @@ void tampilArrayMulti3Dimensi() {
     cout << "int arr[2][2][2] = {{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}};\n";
     cout << "cout << arr[1][0][1]; // Menampilkan nilai elemen (6)\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 void tampilPenjumlahanMatriks() {
@@ -300,7 +300,7 @@ void tampilPenjumlahanMatriks() {
     cout << "    }\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 void tampilPenguranganMatriks() {
@@ -363,7 +363,7 @@ void tampilPenguranganMatriks() {
     cout << "    }\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 void tampilPerkalianMatriks() {
@@ -436,7 +436,7 @@ void tampilPerkalianMatriks() {
     cout << "    }\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 void tampilTransposeMatriks() {
@@ -491,7 +491,7 @@ void tampilTransposeMatriks() {
     cout << "    }\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 void tampilInversMatriks() {
@@ -556,7 +556,7 @@ void tampilInversMatriks() {
     cout << "    invers[1][1] = matriks[0][0]/det;\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 #endif

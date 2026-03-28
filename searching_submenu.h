@@ -136,7 +136,7 @@ void tampilFibonacciSearch() {
         else {
             cout << "  Elemen ditemukan pada indeks: " << i << endl;
             cout << "Proses selesai!" << endl;
-            pause();
+            pauseMenu();
             return;
         }
         
@@ -182,7 +182,7 @@ void tampilFibonacciSearch() {
     cout << "    return -1;\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 int binarySearch(vector<int> arr, int target) {
@@ -254,7 +254,7 @@ void tampilBinarySearch() {
             cout << "    }\n";
             cout << "    return -1;\n";
             cout << "}\n\n";
-            pause();
+            pauseMenu();
             return;
         } else if(arr[mid] < target) {
             cout << "  Karena " << arr[mid] << " < " << target << ", geser left ke " << (mid + 1) << endl;
@@ -281,7 +281,7 @@ void tampilBinarySearch() {
     cout << "    return -1;\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 int interpolationSearch(vector<int> arr, int target) {
@@ -359,7 +359,7 @@ void tampilInterpolationSearch() {
                 cout << "    }\n";
                 cout << "    return -1;\n";
                 cout << "}\n\n";
-                pause();
+                pauseMenu();
                 return;
             }
             break;
@@ -389,7 +389,7 @@ void tampilInterpolationSearch() {
             cout << "    }\n";
             cout << "    return -1;\n";
             cout << "}\n\n";
-            pause();
+            pauseMenu();
             return;
         } else if(arr[pos] < target) {
             cout << "  Karena " << arr[pos] << " < " << target << ", geser low ke " << (pos + 1) << endl;
@@ -416,7 +416,7 @@ void tampilInterpolationSearch() {
     cout << "    return -1;\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 int sequentialSearch(vector<int> arr, int target) {
@@ -470,7 +470,7 @@ void tampilSequentialSearch() {
             cout << "    }\n";
             cout << "    return -1;\n";
             cout << "}\n\n";
-            pause();
+            pauseMenu();
             return;
         }
         
@@ -487,7 +487,7 @@ void tampilSequentialSearch() {
     cout << "    return -1;\n";
     cout << "}\n\n";
     
-    pause();
+    pauseMenu();
 }
 
 #endif
